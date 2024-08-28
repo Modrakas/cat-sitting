@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "lemurmure-regular";
+  src: url(LeMurmure-Regular.woff2);
+}
+
+@font-face {
+  font-family: "sligoil-micro";
+  src: url(Sligoil-Micro.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 2em;
+}
+h1, h2 {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  display: flex;
+  justify-content: center;
+  font-family: "lemurmure-regular";
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: .2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: .9em;
+  margin: .5em;
+  padding: 0 .2em 0 .2em;
+  line-height: 1.3em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "sligoil-micro";
+}
+
+.feed-schedule-container,
+.water-fountain-container,
+.litter-box-container,
+.regular-vet-container,
+.emergency-vet-container,
+.backup-person-container,
+.general-cat-info-container,
+.wifi-container,
+.spare-key-container,
+.building-amenities-container,
+.wifi-container,
+.laundry-container,
+.contact-me{
+  border: 1px solid black;
+  border-radius: 1em;
+  margin: .2em;
+  padding: 1em;
+}
+
+.cat-care, .cat-info-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cat-care-container {
+  margin-bottom: 2em;
+}
+
+.general-apartment-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.apartment-info {
+  padding: none;
+}
+
+.general-cat-info-container {
+  
+}
